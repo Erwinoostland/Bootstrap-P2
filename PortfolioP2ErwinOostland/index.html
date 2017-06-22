@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Erwin Oostland</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!--Eigen CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--Bootstrap JAVAscript-->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--EIGEN JAVASCRIPT-->
+  <script src="js/java.js"></script>
+</head>
+
+<body>
+<!--NAVBAR-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Bootstrap</a>
+    </div>
+
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="history.html">History</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="login"><button type="button" class="btn btn-danger btn-primary btn-lg btn loginbtn" data-toggle="modal" data-target="#myModal">
+        Login
+      </button></li>
+    </ul>
+    </div>
+</nav>
+<!--MODAL-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="container col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4">
+    <br />
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h1>Login</h1>
+      </div>
+      <div class="panel-body">
+        <div class="form-group">
+          <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user" style="width: auto"></i>
+                            </span>
+            <input id="txtUsuario" runat="server" type="text" class="form-control" name="user" placeholder="Username" required="" />
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-lock" style="width: auto"></i>
+                            </span>
+            <input id="txtSenha" runat="server" type="password" class="form-control" name="password" placeholder="************" required="" />
+          </div>
+        </div>
+        <button id="btnLogin" runat="server" class="btn btn-default" style="width: 100%">
+          Login <i class="glyphicon glyphicon-log-in"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--JUMBOTRON-->
+<div class="jumbotron text-center">
+  <h1>Erwin Oostland</h1>
+  <p>Een pagina over van alles en nog wat</p>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Over mij</h2>
+      <h4>Op deze site staan een aantal dingen beschreven over mijzelf.</h4>
+    </div>
+  </div>
+</div>
+</body>
+
+<!--FOOTER-->
+<footer>
+<div class="footer text-center">
+  Made by: Erwin Oostland 2017©
+  <br>
+  Contact: <a href="erwinoostland1@hotmail.com">erwinoostland1@hotmail.com</a>.
+</div>
+</footer>
+</html>
